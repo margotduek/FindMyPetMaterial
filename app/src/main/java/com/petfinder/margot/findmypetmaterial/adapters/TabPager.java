@@ -29,6 +29,12 @@ public class TabPager extends FragmentStatePagerAdapter{
             if(position == 0){
                 return "todos";
             }
+            if(position == 1){
+                return "Encontrados";
+            }
+            if(position == 2){
+                return "Perdidos";
+            }
 
             return "";
         }
