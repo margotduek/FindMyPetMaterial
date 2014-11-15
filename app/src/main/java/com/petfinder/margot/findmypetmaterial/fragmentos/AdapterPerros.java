@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.petfinder.margot.findmypetmaterial.R;
+
 import java.util.ArrayList;
 
 /**
@@ -49,7 +51,7 @@ public class AdapterPerros extends BaseAdapter {
 
         if(view == null) {
             LayoutInflater inflater = LayoutInflater.from(context);
-            view = inflater.inflate(R.layout.item_listadeperros,viewGroup,false);
+            view = inflater.inflate(R.layout.fragment_item_lista,viewGroup,false);
             holder = new ViewHolder();
 
             holder.txtNombrePerrito = (TextView)view.findViewById(R.id.textnombreperrito);

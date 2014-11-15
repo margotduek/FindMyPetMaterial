@@ -29,6 +29,7 @@ public class Fragmento1 extends android.support.v4.app.Fragment {
 
         listaFragments = new ArrayList<android.support.v4.app.Fragment>();
 
+
         listaFragments.add(EncontradosLista.newInstance(0));
         listaFragments.add(TodosLista.newInstance(0));
         listaFragments.add(PerdidosLista.newInstance(0));
