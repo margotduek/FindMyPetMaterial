@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView"
+        android:hint="Nombre del perro:"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <ImageButton
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/fotoperrito"
+        android:src="@drawable/paw"
+        android:layout_weight="0.14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:hint="Sexo: Hembra"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:hint="Raza: French Poodle"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:hint="Tamaño: Chico"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:hint="Caracteristicas: tiene un lunar en el cachete y le tiembla la pierna derecha. Cuando le chiflas la cucaracha, baila."
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:hint="Última vez visto: Polanco, Emilio Castelar. En el parque Lincoln mientras lo sacaba a pasear."
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Revisar ubicación"
+        android:id="@+id/btn_ubicacion"
+        android:layout_weight="0.03" />
+
+</LinearLayout>
